@@ -1,13 +1,12 @@
 import test, { name, age as Age } from 'mod'
 import test2 from 'mod2'
-import test3 from 'mod2'
 
-const bar: number = 1
+const bar: Age = 1
 
-function testFn() {
+function testFn(name) {
   const test = 1
 }
 
-testFn()
+testFn(name)
 
 test.testFn()
